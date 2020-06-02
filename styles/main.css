@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    color: inherit;
+}
+
+:root {
+    /* COLORS*/
+    --primary-color: #3CDBC0;
+    --secondary-color: #4a4a4a;
+    --terciary-color: #FFFFFF;
+    /*FONTS*/
+    --primary-font: 'Rubik', sans-serif;
+}
+
+.header, .main {
+    border: 1px solid red;
+}
+
+.header {}
+
+.main {
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    color: var(--terciary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-title span {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
